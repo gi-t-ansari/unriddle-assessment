@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../../common/layout/Layout.jsx";
 
-const Health: React.FC = () => {
+const Profile: React.FC = () => {
   return (
     <Layout>
-      <div>Health</div>
+      <div>Profile</div>
     </Layout>
   );
 };
 
-export default Health;
+export default Profile;

@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../../common/layout/Layout.jsx";
 
 const Notes: React.FC = () => {
-  return <div>Notes</div>;
+  return (
+    <Layout>
+      <div>Notes</div>
+    </Layout>
+  );
 };
 
 export default Notes;

@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../../common/layout/Layout.jsx";
 
 const Appointment: React.FC = () => {
-  return <div>Appointment</div>;
+  return (
+    <Layout>
+      <div className="text-black">Appointment</div>
+    </Layout>
+  );
 };
 
 export default Appointment;

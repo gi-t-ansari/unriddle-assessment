@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../../common/layout/Layout.jsx";
 
 const Checkup: React.FC = () => {
-  return <div>Checkup</div>;
+  return (
+    <Layout>
+      <div>Checkup</div>
+    </Layout>
+  );
 };
 
 export default Checkup;

@@ -5,4 +5,6 @@ export const APP_URL: Record<string, string> = {
   CHECKUP: "/checkup",
   APPOINTMENT: "/appointment",
   CHAT: "/chat",
+  SETTING: "/setting",
+  PROFILE: "/profile",
 };
